@@ -30,7 +30,8 @@ After scraping the raw data from Realtor.com, the following data transformation 
 1. **Handling Missing Values**
 2. **Data Type Conversion**
 3. **Extracting ZIP Codes from Address**
-4. **Handling Property Prices**
+4. **Converting Acres to Sqft**
+5. **Transforming Property Prices**
 
 
 The cleaned dataset contains over 8,312 listings and covers a wide range of property types and geographic locations across Florida.
@@ -39,7 +40,7 @@ The cleaned dataset contains over 8,312 listings and covers a wide range of prop
 
 ### 1. **Broker Performance**
    - **Top Brokers**: Lennar, Meritage Homes, and Coldwell Banker Realty dominate the market in terms of the number of listings.
-   - **Geographic Presence**: Some brokers have a strong presence in specific areas. For instance, **Coldwell Banker Realty** is most active in **Bradenton**, while **Lennar** performs strongly in **Orlando**.
+   - **Geographic Presence**: Some brokers have a strong presence in specific areas. For instance, **Coldwell Banker Realty** is most active in **Bradenton**, while **Lennar** performs strongly in **Port Saint Lucie**.
 
 ### 2. **Real Estate Market Overview**
    - **Price Distribution**: The majority of properties are priced between **$0** and **$500,000**, with fewer properties listed above the **$1M** range.
@@ -78,10 +79,9 @@ Three Tableau dashboards were created from the scraped data:
 
 ## Technology Used
 
-- **Web Scraping**: Selenium and Undetected Chromedriver for Python.
-- **Data Analysis**: Python (Pandas) for cleaning and structuring the scraped data.
-- **Data Visualization**: Tableau for creating dashboards.
-- **GitHub**: Used to store and version-control the project.
+- **Web Scraping**: Selenium and Firefox Webdriver for Python.
+- **Data Analysis**: Python (Pandas) for cleaning and transfomrming the scraped data.
+- **Data Visualization**: Tableau.
 
 ## How to Run the Project
 
