@@ -78,4 +78,35 @@ Three Tableau dashboards were created from the scraped data:
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/Florida-Real-Estate-Analysis.git
+   git clone https://github.com/ahmedtanvir47/RealEstate_Florida/.git
+   ```
+
+This project is done using Python 3.12.5. Please install the latest version of Python before running the project.
+
+2. Intialize and activate virtual environment
+```bash
+virtualenv --no-site-packages  venv
+source venv/bin/activate
+```
+
+3. Install dependencies
+```bash
+pip install -r requirements.txt
+```
+
+
+4. Run the scraper scripts
+```bash
+python scraper.py
+```
+
+5. Run all the cells in the data transformation notebook in google colab or download the [notebook](.notebook/notebook.ipynb) and run it in Jupyter.
+
+6. You will get a file named `property_cleaned.csv` as final data.
+
+7. Open the `SJR Journal Ranking Analysis.twb` file in Tableau (or open the public tableau [link][dashboard-url]) and connect the `combined_journal_ranking_data.csv` file to the workbook.
+
+## Conclusion
+This project provides valuable insights into the Florida real estate market. By analyzing broker performance, property prices, and geographic trends, stakeholders can make better decisions in the real estate landscape.
+
+
