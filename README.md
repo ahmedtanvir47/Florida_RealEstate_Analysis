@@ -13,7 +13,7 @@ The Florida real estate market is diverse and dynamic, making it challenging for
 
 ## Data Collection
 
-The [data](data/) was scraped from [Realtor.com](https://www.realtor.com/) using a Python-based web scraper. The scraper collected information such as:
+The [data](data/) was scraped from [Realtor.com](https://www.realtor.com/realestateandhomes-search/Florida) using a Python-based web scraper. The scraper collected information such as:
 - **Price**: Property prices in USD.
 - **Category**: Type of property (e.g., house, condo, land).
 - **Beds**: Number of bedrooms.
