@@ -1,1 +1,81 @@
-# RealEstate_Florida
+# Florida Real Estate Market Analysis
+
+## Project Overview
+
+This project involves scraping real estate data from Realtor.com for properties listed in Florida and creating dashboards to analyze the performance of brokers, property prices, and geographic trends. The analysis helps real estate agents, buyers, and investors make informed decisions.
+
+## Motivation
+
+The Florida real estate market is diverse and dynamic, making it challenging for stakeholders to stay informed about trends in property listings, prices, and broker performance. This project aims to:
+- Provide a comprehensive overview of the market through data visualization.
+- Help stakeholders, such as real estate agents, buyers, and investors, make data-driven decisions.
+- Leverage web scraping to gather and analyze large datasets in real-time.
+
+## Data Collection
+
+The data was scraped from [Realtor.com](https://www.realtor.com/) using a Python-based web scraper. The scraper collected information such as:
+- **Price**: Property prices in USD.
+- **Category**: Type of property (e.g., house, condo, land).
+- **Beds**: Number of bedrooms.
+- **Baths**: Number of bathrooms.
+- **Area**: Square footage of the property.
+- **Plot Size**: Lot size in square feet.
+- **Address**: Location of the property.
+- **Broker**: Listing broker.
+- **URL**: Direct link to the property listing.
+
+The dataset contains over 8,000 listings and covers a wide range of property types and geographic locations across Florida.
+
+## Key Findings
+
+### 1. **Broker Performance**
+   - **Top Brokers**: Lennar, Meritage Homes, and Coldwell Banker Realty dominate the market in terms of the number of listings.
+   - **Geographic Presence**: Some brokers have a strong presence in specific areas. For instance, **Coldwell Banker Realty** is most active in **Bradenton**, while **Taylor Morrison** performs strongly in **Orlando**.
+
+### 2. **Real Estate Market Overview**
+   - **Price Distribution**: The majority of properties are priced between **$0** and **$500,000**, with fewer properties listed above the **$1M** range.
+   - **Property Types**: **Houses** make up the majority of the listings (over 66% of the market), followed by **Mobile Homes** and **Condos**.
+
+### 3. **Property Features**
+   - **Bedroom and Bathroom Insights**: Homes with **3-5 bedrooms** are the most common, while properties with **2-3 bathrooms** are typical.
+   - **Area Analysis**: The average price per square foot varies by property type, with **land** having the highest average at **$647.8/sqft**.
+
+## Observations
+
+- **Geographic Hotspots**: **Parrish** and **Hobe Sound** have the highest concentration of listings, making them key areas of focus for both agents and investors.
+- **Price Trends**: The price distribution suggests that Florida offers a range of property options for different budgets, with a majority of listings under **$500K**, making it accessible for average buyers.
+- **Broker Strategies**: Brokers like **Lennar** and **Meritage Homes** are leveraging their position to dominate in high-growth areas, which could influence market dynamics.
+
+## Visualizations
+
+Three Tableau dashboards were created from the scraped data:
+1. **Broker Performance Dashboard**: Visualizes the performance of top brokers in Florida.
+2. **Real Estate Market Overview**: Analyzes the price distribution, property types, and geographic listing trends.
+3. **Property Features Dashboard**: Focuses on property attributes like bedrooms, bathrooms, area, and average price per square foot.
+
+## [Dashboards] (https://public.tableau.com/app/profile/tanvir.ahmed.munna/viz/Realtor_Real_Estate_Data_Anlyasis/Overviewdashoboard)
+
+### Dashboard 1:
+
+![Real Estate Market Overview](https://github.com/ahmedtanvir47/RealEstate_Florida/blob/main/dashboard/Overview%20dashoboard.png)
+
+### Dashboard 2:
+
+![Broker Performance Dashboard](https://github.com/ahmedtanvir47/RealEstate_Florida/blob/main/dashboard/Broker%20dashboard.png)
+
+### Dashboard 3:
+
+![Property Features Dashboard](https://github.com/ahmedtanvir47/RealEstate_Florida/blob/main/dashboard/Property%20Dashboard.png)
+
+## Technology Used
+
+- **Web Scraping**: Selenium and Undetected Chromedriver for Python.
+- **Data Analysis**: Python (Pandas) for cleaning and structuring the scraped data.
+- **Data Visualization**: Tableau for creating dashboards.
+- **GitHub**: Used to store and version-control the project.
+
+## How to Run the Project
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/your-username/Florida-Real-Estate-Analysis.git
