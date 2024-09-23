@@ -94,7 +94,7 @@ This project is done using Python 3.12.5. Please install the latest version of P
 
 2. Intialize and activate virtual environment
 ```bash
-virtualenv --no-site-packages  venv
+virtualenv  venv
 source venv/bin/activate
 ```
 
