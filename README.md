@@ -24,13 +24,22 @@ The [data](data/) was scraped from [Realtor.com](https://www.realtor.com/) using
 - **Broker**: Listing broker.
 - **URL**: Direct link to the property listing.
 
+## Data Transformation
+
+After scraping the raw data from Realtor.com, the following data transformation steps were performed to clean and prepare the dataset for analysis:
+1. **Handling Missing Values**
+2. **Data Type Conversion**
+3. **Extracting ZIP Codes from Address**
+4. **Handling Property Prices**
+
+
 The cleaned dataset contains over 8,312 listings and covers a wide range of property types and geographic locations across Florida.
 
 ## Key Findings
 
 ### 1. **Broker Performance**
    - **Top Brokers**: Lennar, Meritage Homes, and Coldwell Banker Realty dominate the market in terms of the number of listings.
-   - **Geographic Presence**: Some brokers have a strong presence in specific areas. For instance, **Coldwell Banker Realty** is most active in **Bradenton**, while **Taylor Morrison** performs strongly in **Orlando**.
+   - **Geographic Presence**: Some brokers have a strong presence in specific areas. For instance, **Coldwell Banker Realty** is most active in **Bradenton**, while **Lennar** performs strongly in **Orlando**.
 
 ### 2. **Real Estate Market Overview**
    - **Price Distribution**: The majority of properties are priced between **$0** and **$500,000**, with fewer properties listed above the **$1M** range.
