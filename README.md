@@ -13,7 +13,7 @@ The Florida real estate market is diverse and dynamic, making it challenging for
 
 ## Data Collection
 
-The data was scraped from [Realtor.com](https://www.realtor.com/) using a Python-based web scraper. The scraper collected information such as:
+The [data](data/) was scraped from [Realtor.com](https://www.realtor.com/) using a Python-based web scraper. The scraper collected information such as:
 - **Price**: Property prices in USD.
 - **Category**: Type of property (e.g., house, condo, land).
 - **Beds**: Number of bedrooms.
@@ -24,7 +24,7 @@ The data was scraped from [Realtor.com](https://www.realtor.com/) using a Python
 - **Broker**: Listing broker.
 - **URL**: Direct link to the property listing.
 
-The dataset contains over 8,000 listings and covers a wide range of property types and geographic locations across Florida.
+The cleaned dataset contains over 8,312 listings and covers a wide range of property types and geographic locations across Florida.
 
 ## Key Findings
 
@@ -53,7 +53,7 @@ Three Tableau dashboards were created from the scraped data:
 2. **Real Estate Market Overview**: Analyzes the price distribution, property types, and geographic listing trends.
 3. **Property Features Dashboard**: Focuses on property attributes like bedrooms, bathrooms, area, and average price per square foot.
 
-## [Dashboards] (https://public.tableau.com/app/profile/tanvir.ahmed.munna/viz/Realtor_Real_Estate_Data_Anlyasis/Overviewdashoboard)
+## [Dashboards](https://public.tableau.com/views/Realtor_Real_Estate_Data_Anlyasis/Overviewdashoboard?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
 
 ### Dashboard 1:
 
