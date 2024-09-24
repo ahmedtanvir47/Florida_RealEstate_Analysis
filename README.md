@@ -38,13 +38,14 @@ The cleaned dataset contains over 8,312 listings and covers a wide range of prop
 
 ## Key Findings
 
-### 1. **Broker Performance**
-   - **Top Brokers**: Lennar, Meritage Homes, and Coldwell Banker Realty dominate the market in terms of the number of listings.
-   - **Geographic Presence**: Some brokers have a strong presence in specific areas. For instance, **Coldwell Banker Realty** is most active in **Bradenton**, while **Lennar** performs strongly in **Port Saint Lucie**.
-
-### 2. **Real Estate Market Overview**
+### 1. **Real Estate Market Overview**
    - **Price Distribution**: The majority of properties are priced between **$0** and **$500,000**, with fewer properties listed above the **$1M** range.
    - **Property Types**: **Houses** make up the majority of the listings (over 66% of the market), followed by **Mobile Homes** and **Condos**.
+   - **Geographic Distribution**: **Parissh** has maximum number of listings. Maximum properties are in coastal area. 
+
+### 2. **Broker Performance**
+   - **Top Brokers**: Lennar, Meritage Homes, and Coldwell Banker Realty dominate the market in terms of the number of listings.
+   - **Geographic Presence**: Some brokers have a strong presence in specific areas. For instance, **Coldwell Banker Realty** is most active in **Bradenton**, while **Lennar** performs strongly in **Port Saint Lucie**.
 
 ### 3. **Property Features**
    - **Bedroom and Bathroom Insights**: Homes with **3-5 bedrooms** are the most common, while properties with **2-3 bathrooms** are typical.
