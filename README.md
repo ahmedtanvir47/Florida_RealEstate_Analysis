@@ -1,5 +1,6 @@
 # Florida Real Estate Market Analysis
 
+
 ## Project Overview
 
 This project involves scraping real estate data from Realtor.com for properties listed in Florida and creating dashboards to analyze the performance of brokers, property prices, and geographic trends. The analysis helps real estate agents, buyers, and investors make informed decisions.
