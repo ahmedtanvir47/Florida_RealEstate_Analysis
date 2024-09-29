@@ -1,6 +1,6 @@
 from selenium import webdriver
 from selenium.webdriver.common.by import By
-import undetected_chromedriver as uc
+
 from selenium.common.exceptions import NoSuchElementException
 import time
 from numpy import random
