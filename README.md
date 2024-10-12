@@ -111,7 +111,7 @@ pip install -r requirements.txt
 python scraper.py
 ```
 
-5. Run all the cells in the data transformation notebook in google colab or download the [notebook](.notebook/notebook.ipynb) and run it in Jupyter.
+5. Run all the cells in the data transformation notebook in google colab or download the [notebook](notebook/notebook.ipynb) and run it in Jupyter.
 
 6. You will get a file named `property_cleaned.csv` as final data.
 
