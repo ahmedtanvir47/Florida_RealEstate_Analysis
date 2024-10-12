@@ -115,7 +115,7 @@ python scraper.py
 
 6. You will get a file named `property_cleaned.csv` as final data.
 
-7. Open the `SJR Journal Ranking Analysis.twb` file in Tableau (or open the public tableau [link][dashboard-url]) and connect the `combined_journal_ranking_data.csv` file to the workbook.
+7. Open the `Realtor.twb` file in Tableau (or open the public tableau [link][dashboard-url]) and connect the `property_cleaned.csv` file to the workbook.
 
 ## Conclusion
 This project provides valuable insights into the Florida real estate market. By analyzing broker performance, property prices, and geographic trends, stakeholders can make better decisions in the real estate landscape.
