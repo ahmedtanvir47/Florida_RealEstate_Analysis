@@ -65,7 +65,7 @@ Three Tableau dashboards were created from the scraped data:
 2. **Real Estate Market Overview**: Analyzes the price distribution, property types, and geographic listing trends.
 3. **Property Features Dashboard**: Focuses on property attributes like bedrooms, bathrooms, area, and average price per square foot.
 
-## [Dashboards](https://public.tableau.com/views/Realtor_Real_Estate_Data_Anlyasis/Overviewdashoboard?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
+## Dashboards
 
 ### Dashboard 1: [Real Estate Market Overview](https://public.tableau.com/views/Realtor_Real_Estate_Data_Anlyasis/Overviewdashoboard?:language=en-US&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
 
@@ -89,7 +89,7 @@ Three Tableau dashboards were created from the scraped data:
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/ahmedtanvir47/RealEstate_Florida/.git
+   git clone https://github.com/ahmedtanvir47/Florida_RealEstate_Analysis/.git
    ```
 
 This project is done using Python 3.12.5. Please install the latest version of Python before running the project.
@@ -97,7 +97,9 @@ This project is done using Python 3.12.5. Please install the latest version of P
 2. Intialize and activate virtual environment
 ```bash
 virtualenv  venv
-source venv/bin/activate
+```
+```bash
+venv/Scripts/activate
 ```
 
 3. Install dependencies
@@ -105,17 +107,21 @@ source venv/bin/activate
 pip install -r requirements.txt
 ```
 
+4. Change the directory:
+```bash
+cd scripts
+```
 
-4. Run the scraper scripts
+5. Run the scraper scripts
 ```bash
 python scraper.py
 ```
 
-5. Run all the cells in the data transformation notebook in google colab or download the [notebook](notebook/notebook.ipynb) and run it in Jupyter.
+6. Run all the cells in the data transformation notebook in google colab or download the [notebook](notebooks/notebook.ipynb) and run it in Jupyter.
 
-6. You will get a file named `property_cleaned.csv` as final data.
+7. You will get a file named `property_cleaned.csv` as final data.
 
-7. Open the `Realtor_florida.twbx` file in Tableau and connect the `property_cleaned.csv` file to the workbook.
+8. Open the `Realtor_florida.twbx` file in Tableau and connect the `property_cleaned.csv` file to the workbook.
 
 ## Conclusion
 This project provides valuable insights into the Florida real estate market. By analyzing broker performance, property prices, and geographic trends, stakeholders can make better decisions in the real estate landscape.
