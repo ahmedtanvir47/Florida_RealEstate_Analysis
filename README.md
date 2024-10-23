@@ -67,15 +67,15 @@ Three Tableau dashboards were created from the scraped data:
 
 ## [Dashboards](https://public.tableau.com/views/Realtor_Real_Estate_Data_Anlyasis/Overviewdashoboard?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
 
-### Dashboard 1:
+### Dashboard 1: [Real Estate Market Overview](https://public.tableau.com/views/Realtor_Real_Estate_Data_Anlyasis/Overviewdashoboard?:language=en-US&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
 
 ![Real Estate Market Overview](https://github.com/ahmedtanvir47/RealEstate_Florida/blob/main/dashboard/Overview%20dashoboard.png)
 
-### Dashboard 2:
+### Dashboard 2: [Broker Performance Dashboard](https://public.tableau.com/views/Realtor_Real_Estate_Data_Anlyasis/Brokerdashboard?:language=en-US&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
 
 ![Broker Performance Dashboard](https://github.com/ahmedtanvir47/RealEstate_Florida/blob/main/dashboard/Broker%20dashboard.png)
 
-### Dashboard 3:
+### Dashboard 3: [Property Features Dashboard](https://public.tableau.com/views/Realtor_Real_Estate_Data_Anlyasis/PropertyDashboard?:language=en-US&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
 
 ![Property Features Dashboard](https://github.com/ahmedtanvir47/RealEstate_Florida/blob/main/dashboard/Property%20Dashboard.png)
 
