@@ -50,7 +50,7 @@ The cleaned dataset contains over 8,312 listings and covers a wide range of prop
 
 ### 3. **Property Features**
    - **Bedroom and Bathroom Insights**: Homes with **3-5 bedrooms** are the most common, while properties with **2-3 bathrooms** are typical.
-   - **Area Analysis**: The average price per square foot varies by property type, with **land** having the highest average at **$647.8/sqft**.
+   - **Area Analysis**: The average price per square foot varies by property type, with **land** having the highest average at **$647.8/sqft**. Property prices are higher in coastal areas.
 
 ## Observations
 
